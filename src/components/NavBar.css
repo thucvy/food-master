@@ -1,0 +1,8 @@
+.custom-nav {
+  margin-bottom: 100px;
+}
+
+.custom-nav.scrolled {
+  background: #25160cec;
+  transition: background 500ms;
+}

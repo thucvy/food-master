@@ -8,7 +8,6 @@ import { useParams} from "react-router-dom";
 import getRecipeDetailAPI from "../api/getRecipeDetailAPI";
 import "./RecipeDetail.css"
 
-import "../base/BaseForm.css";
 const RecipeDetails = () => {
   const [recipeData, setRecipeData] = useState("");
   const [error, setError] = useState("");
@@ -62,7 +61,7 @@ const RecipeDetails = () => {
         <Col>
           <LinkContainer to="/fridge" style={{ width: "fit-content" }}>
             <Nav.Link>
-              <Button variant="warning" className="custom-button">
+              <Button variant="warning">
                 <MdArrowBack />
                 Back
               </Button>

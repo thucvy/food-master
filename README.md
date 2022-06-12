@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# URL to the Food Master Web app:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Food Master](https://food-master.pages.dev/).
 
 ## Available Scripts
 
